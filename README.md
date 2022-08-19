@@ -65,4 +65,29 @@ Dpkg -i xxx.deb       eso instala los .deb
 
 
 
-Alias apodo="ls -l"      es para ponerle un apodo a algun comando![image](https://user-images.githubusercontent.com/106941865/185647555-2e84ca9c-434f-48a4-a04b-b5c2cfe30bdb.png)
+Alias apodo="ls -l"      
+
+Reiniciar = sudo reboot
+
+
+Ps -aux     para ver los procesos del sistema
+Top       para ver mas info
+
+
+
+Cntrl c    cancela algun comando en ejecucion 
+
+
+
+Para instalar     sudo install apt XXXXX
+
+
+Htop   es como un task manager
+
+
+Pstree    para ver jerarquias d eprocesoo
+
+
+
+Kill -9 XXXXX   para matar el proceso en las x va el id del proceso![image](https://user-images.githubusercontent.com/106941865/185648376-e25f086a-b6bb-4c82-a276-6f84f0b8373a.png)
+
