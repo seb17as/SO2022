@@ -117,27 +117,49 @@ docker logout	Sale del registro de contenedores o del backend de la nube
 
 
 docker container ls	Muestra los contenedores que se ejecutan en el host
+
 docker container stats	Muestra información sobre el estado de los contenedores en funcionamiento
+
 docker container run <image>	Inicia un nuevo contenedor desde la imagen especificada o ejecuta un comando en un nuevo contenedor
+  
 docker container commit <container>	Crea una nueva imagen a partir de los cambios de un contenedor en funcionamiento
+  
 docker container attach <container>	Proporciona un contenedor en ejecución con flujos locales de entrada, salida y error estándar
+  
 docker container logs <container>	Muestra la información de registro de un contenedor
+  
 docker container inspect <container>	Muestra información detallada de un contenedor
+  
 docker container update <container>	Renueva la configuración de un contenedor
+  
 docker container rename <container> <new-name>	Da un nuevo nombre a un contenedor
+  
 docker container port <container>	Muestra la asignación de puertos de un contenedor
+  
 docker container pause <container>	Pone en pausa los procesos que se ejecutan en un contenedor
+  
 docker container unpause <container>	Reanuda la ejecución de los procesos pausados en un contenedor
+  
 docker container exec <container> <command>	Ejecuta un comando dentro de un contenedor en funcionamiento
+  
 docker container stop <container>	Detiene la ejecución de un contenedor
+  
 docker container start <container>	Reanuda la ejecución de un contenedor detenido
+  
 docker container restart <container>	Reinicia un contenedor; se comporta como “docker container stop <container>; docker container start <container>”
+  
 docker container top <container>	Lista de los procesos que se ejecutan dentro de un contenedor
+  
 docker container kill <container>	Detiene un contenedor en marcha
+  
 docker container rm <container>	Elimina un contenedor del sistema
+  
 docker container prune	Elimina todos los contenedores detenidos del sistema
+  
 docker container cp <container>:<source-path> <dest-path>	Copia archivos y carpetas entre un contenedor y el sistema de archivos local
+  
 docker container diff <container>	Muestra los cambios en el sistema de archivos de un contenedor
+  
 docker container export <container>	Exporta el sistema de archivos de un contenedor a un archivo tarball; todas las capas se reducen a una
   
   
