@@ -10,6 +10,8 @@ ULACIT
 2022
 
 Ip addr para saber la ip
+![image](https://user-images.githubusercontent.com/106941865/185649082-79ee6ae5-6fdd-4d67-9c15-0b35960db8d2.png)
+
 
 Ls lista los directorios
 
