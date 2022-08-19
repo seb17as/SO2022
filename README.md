@@ -110,9 +110,13 @@ docker images
 
 
 docker --help	Muestra la ayuda para la CLI de Docker
+
 docker --version	Muestra la versión de la instalación de Docker
+
 docker info	Muestra información de todo el sistema sobre la instalación de Docker
+
 docker login	Accede a un registro de contenedores o a un backend de la nube
+
 docker logout	Sale del registro de contenedores o del backend de la nube
 
 
@@ -165,14 +169,25 @@ docker container export <container>	Exporta el sistema de archivos de un contene
   
   
 docker image build	Crea una imagen de Docker a partir de un fichero de Docker
+  
 docker image history <image>	Muestra los pasos para crear una imagen de Docker
+  
 docker image import <tarball>	Crea una imagen de Docker a partir de un archivo “tarball”
+  
 docker image inspect <image>	Muestra información detallada de una imagen de Docker
+  
 docker image load	Carga un archivo de imagen creado con “docker image save”
+  
 docker image ls	Lista de imágenes disponibles en el host Docker
+  
 docker image prune	Elimina las imágenes de Docker no utilizadas del host Docker
+  
 docker image pull <image>	Obtiene la imagen de Docker del registro
+  
 docker image push <image>	Envía una imagen a un registro
+  
 docker image rm <image>	Elimina una imagen del host local
+  
 docker image save <image>	Crea un archivo de imágenes con todas las capas de una imagen
+  
 docker image tag <source-image> <target-image>	Etiqueta una imagen
